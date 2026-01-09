@@ -546,7 +546,7 @@
             let deltaY = startY - endY;
 
             if (Math.abs(deltaX) > Math.abs(deltaY) && Math.abs(deltaX) > 50) {
-                const categories = ['izgara', 'ana-yemek', 'icecek', 'salata', 'tatli', 'kahvalti', 'gozleme', 'aperatif', 'fast-food', 'ev-yapimi', 'nargile'];
+                const categories = ['izgara', 'ana-yemek', 'icecek', 'salata', 'tatli', 'kahvalti', 'gozleme', 'aperatif', 'fast-food', 'ev-yapimi', 'nargile','mangal'];
                 const currentIndex = categories.indexOf(currentCategory);
                 
                 if (deltaX > 0 && currentIndex < categories.length - 1) {
@@ -1196,6 +1196,8 @@
             <button class="category-btn" onclick="showCategory('fast-food')" data-category="fast-food">🍔 Fast Food</button>
             <button class="category-btn" onclick="showCategory('ev-yapimi')" data-category="ev-yapimi">🏠 Ev Yapımı</button>
             <button class="category-btn" onclick="showCategory('nargile')" data-category="nargile">💨 Nargile</button>
+            <button class="category-btn" onclick="showCategory('mangal')" data-category="mangal">🔥 Mangal Evi</button>
+
         </div>
 
         <!-- Search -->
@@ -1441,7 +1443,7 @@
                     </div>
                 </div>
                 <div class="menu-item">
-                    <img src="https://madicanacdnstorage.blob.core.windows.net/main/Assets/photo/r/kusburnu-cayi__23-21212_WebImage_b.webp" alt="Kuşburnu" class="item-image">
+                    <img src="https://www.acibadem.com.tr/hayat/Images/YayinMakaleler/c-vitamini-yildizi-kusburnunun-faydalari_820392_1.jpg" alt="Kuşburnu" class="item-image">
                     <div class="item-content">
                         <h3 class="item-name">Kuşburnu</h3>
                         <p class="item-description">C vitamini açısından zengin kuşburnu çayı</p>
@@ -1686,7 +1688,7 @@
                         <h3 class="item-name">Frambuazlı Cheesecake</h3>
                         <p class="item-description">Taze frambuaz ile süslenmiş cheesecake</p>
                         <div class="item-footer">
-                            <span class="item-price">200₺</span>
+                            <span class="item-price">300₺</span>
                             <button class="add-btn">+</button>
                         </div>
                     </div>
@@ -1770,3 +1772,97 @@
                 </div>
             </div>
         </section>
+        <!-- Mangal Evi -->
+<section class="category-section" id="mangal">
+  <h2 class="category-title">🔥 Mangal Evi </h2>
+
+  <div class="menu-grid">
+
+    <div class="menu-item special-item">
+      <div class="special-badge">Test</div>
+      <img src="https://i.lezzet.com.tr/images-xxlarge/testi-kebabi-243108-0213a066-8000-4db1-b755-17cac3fdddc1" class="item-image">
+      <div class="item-content">
+        <h3 class="item-name">Testi Kebapı</h3>
+        <p class="item-description">Özel mangal kebabı</p>
+        <div class="item-footer">
+          <span class="item-price">900₺</span>
+          <button class="add-btn">+</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <img src="https://saraylidoner.com/wp-content/uploads/2021/09/tavuk-sis.jpg" class="item-image">
+      <div class="item-content">
+        <h3 class="item-name">Tavuk Şiş (100g)</h3>
+        <p class="item-description">Mangalda tavuk şiş</p>
+        <div class="item-footer">
+          <span class="item-price">400₺</span>
+          <button class="add-btn">+</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <img src="https://images.unsplash.com/photo-1610057099443-fde8c4d50f91?w=400" class="item-image">
+      <div class="item-content">
+        <h3 class="item-name">Kanat (100g)</h3>
+        <p class="item-description">Izgara tavuk kanat</p>
+        <div class="item-footer">
+          <span class="item-price">400₺</span>
+          <button class="add-btn">+</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <img src="https://i.lezzet.com.tr/images-xxlarge-recipe/tavuk-pirzola-15208c40-e887-4e78-ae56-3ccd88b7f807.jpg" class="item-image">
+      <div class="item-content">
+        <h3 class="item-name">Tavuk Pirzola (100g)</h3>
+        <p class="item-description">Izgara tavuk pirzola</p>
+        <div class="item-footer">
+          <span class="item-price">400₺</span>
+          <button class="add-btn">+</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-item special-item">
+      <div class="special-badge">Premium</div>
+      <img src="https://images.unsplash.com/photo-1558030006-450675393462?w=400" class="item-image">
+      <div class="item-content">
+        <h3 class="item-name">Kuzu Pirzola (100g)</h3>
+        <p class="item-description">Mangalda kuzu pirzola</p>
+        <div class="item-footer">
+          <span class="item-price">500₺</span>
+          <button class="add-btn">+</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <img src="https://gunaydinet.com/wp-content/uploads/2025/01/Steak-Ana-Yemek-Assado-2.jpg" class="item-image">
+      <div class="item-content">
+        <h3 class="item-name">Kaburga (100g)</h3>
+        <p class="item-description">Mangalda dana kaburga</p>
+        <div class="item-footer">
+          <span class="item-price">500₺</span>
+          <button class="add-btn">+</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <img src="https://static.ticimax.cloud/9247/uploads/urunresimleri/buyuk/izgara-kofte-dd72.jpg" class="item-image">
+      <div class="item-content">
+        <h3 class="item-name">Köfte (100g)</h3>
+        <p class="item-description">Izgara köfte</p>
+        <div class="item-footer">
+          <span class="item-price">500₺</span>
+          <button class="add-btn">+</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
